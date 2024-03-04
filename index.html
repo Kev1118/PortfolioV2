@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+   
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> 
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="page-wrapper">
+        <!-- SIDEBAR -->
+        <div id="sidebar">
+            <div class="sidebar-header">
+                <div class="avatar">
+                    <img src="./images/kevin.JPG" class="img-fluid avatar-image" alt="">
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h5 class="avatar-details m-0">KEVIN MORALES</h5>
+                <small>Specialist(Php Developer)</small>
+            </div>
+            <hr>
+            <ul class="list-unstyled sidebar-list mt-5">
+                <li>
+                    <a href="#about-section" class="active">
+                        <div class="sidebar-link">About</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#project-section">
+                        <div class="sidebar-link">Projects</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact-section">
+                        <div class="sidebar-link">Contact</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- NAVIGATION -->
+        <div class="container-fluid">
+            <nav class="nabar navbar-expand-lg bg-body-teritiary">
+                <div class="container-fluid custom-nav-container">
+                    <h3 class="m-0 nav-title">My Portfolio</h3>
+                </div>
+            </nav>
+            <!-- Pages -->
+
+            <section id="about-section" class="mt-5">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-container">
+                            <div>
+                                <h1 >Hello, I'm</h1>
+                                <h1 id="about-me-text-change" class="typewrite" data-period="2000" data-type='["Kevin","Php Developer", "Pogi"]'>
+                                    <span class="wrap"></span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img src="./images/programmer.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <h4 class="m-0 text-center">Current tech stack</h4>
+                    <div class="tech-stacks">
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-php-plain colored"></i>
+                            <small class="text-center font-bold">PHP</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-laravel-original colored"></i>
+                            <small class="text-center font-bold">Laravel</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-vuejs-plain colored"></i>
+                            <small class="text-center font-bold">Vue.js</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-mysql-original colored"></i>
+                            <small class="text-center font-bold">MySql</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-postgresql-plain colored"></i>
+                            <small class="text-center font-bold">PostreSql</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-github-original colored"></i>
+                            <small class="text-center font-bold">Github</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-bootstrap-plain colored"></i>
+                            <small class="text-center font-bold">Bootstrap</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-insomnia-plain colored"></i>
+                            <small class="text-center font-bold">Insomnia</small>
+                        </div>
+                    </div>
+                    <h4 class="text-center m-0">New to:</h4>
+                    <div class="tech-stacks">
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-react-original colored"></i>
+                            <small class="text-center font-bold">React.js</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-nodejs-plain colored"></i>
+                            <small class="text-center font-bold">Node.js</small>
+                        </div>
+                        <div class="icon-container">
+                            <i class="tech-icon devicon-amazonwebservices-plain-wordmark colored text-center"></i>
+                            <small class="text-center font-bold">Amazon Web Service</small>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <!-- PROJECTS -->
+            <section id="project-section" class="mt-5">
+                <h4 class="m-0 text-center">PROJECTS</h4>
+                <div class="container-fluid">
+                    <div class="row">
+                       <div class="container-glass">
+                            <img src="./images/projects/hrms.png" class="img-fluid img" alt="">
+                            <p class="project-text">Human Resource Management System</p>
+                            <button class="project-btn">Discover</button>
+                       </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contat-section" class="mt-5">
+                <h4 class="m-0 text-center">Contact</h4>
+                <div class="container-fluid">
+
+                </div>
+            </section>
+            <footer>
+                <div class="footer">
+                    <p class="m-0">Contact: 09665388712</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="./asset/jquery-3.6.1.min.js"></script>
+
+    <script src="./asset/bootstrap/js/bootstrap.min.js"></script>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
